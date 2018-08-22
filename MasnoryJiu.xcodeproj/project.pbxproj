@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43F30ED70AEF14A7ACB556E6 /* libPods-MasnoryJiu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F8BC89CC88BC02AD65AA45 /* libPods-MasnoryJiu.a */; };
+		4A5B6054160764BCDD46EE45 /* libPods-MasnoryJiuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCAA38C3CBBC12E159970D2 /* libPods-MasnoryJiuTests.a */; };
+		646069EC925C7A3DAF393301 /* libPods-MasnoryJiuUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1629734974CC620C2A8EA86 /* libPods-MasnoryJiuUITests.a */; };
 		C70C95E0212D56D900EE0883 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C95DF212D56D900EE0883 /* AppDelegate.m */; };
 		C70C95E3212D56D900EE0883 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C95E2212D56D900EE0883 /* ViewController.m */; };
 		C70C95E6212D56D900EE0883 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70C95E4212D56D900EE0883 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		C70C95EE212D56DA00EE0883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C95ED212D56DA00EE0883 /* main.m */; };
 		C70C95F8212D56DA00EE0883 /* MasnoryJiuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C95F7212D56DA00EE0883 /* MasnoryJiuTests.m */; };
 		C70C9603212D56DA00EE0883 /* MasnoryJiuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C9602212D56DA00EE0883 /* MasnoryJiuUITests.m */; };
+		C70C9612212D57D200EE0883 /* NSArray+Sudoku.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C9611212D57D200EE0883 /* NSArray+Sudoku.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B1AE87FD2142E9A819C5505 /* Pods-MasnoryJiuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasnoryJiuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasnoryJiuTests/Pods-MasnoryJiuTests.release.xcconfig"; sourceTree = "<group>"; };
+		7228654397C5ED90F1571994 /* Pods-MasnoryJiu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasnoryJiu.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasnoryJiu/Pods-MasnoryJiu.release.xcconfig"; sourceTree = "<group>"; };
+		907F42CE7FE34D991F00AF18 /* Pods-MasnoryJiuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasnoryJiuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasnoryJiuUITests/Pods-MasnoryJiuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		95C5F47CA74D0C9CD6620456 /* Pods-MasnoryJiuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasnoryJiuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasnoryJiuUITests/Pods-MasnoryJiuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1629734974CC620C2A8EA86 /* libPods-MasnoryJiuUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasnoryJiuUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70C95DB212D56D800EE0883 /* MasnoryJiu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasnoryJiu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70C95DE212D56D900EE0883 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C70C95DF212D56D900EE0883 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,12 @@
 		C70C95FE212D56DA00EE0883 /* MasnoryJiuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasnoryJiuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70C9602212D56DA00EE0883 /* MasnoryJiuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasnoryJiuUITests.m; sourceTree = "<group>"; };
 		C70C9604212D56DA00EE0883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70C9610212D57D200EE0883 /* NSArray+Sudoku.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Sudoku.h"; sourceTree = "<group>"; };
+		C70C9611212D57D200EE0883 /* NSArray+Sudoku.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Sudoku.m"; sourceTree = "<group>"; };
+		CE1C3C863BD8904600C99639 /* Pods-MasnoryJiuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasnoryJiuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasnoryJiuTests/Pods-MasnoryJiuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFCAA38C3CBBC12E159970D2 /* libPods-MasnoryJiuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasnoryJiuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F8BC89CC88BC02AD65AA45 /* libPods-MasnoryJiu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MasnoryJiu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88306B4E1CCCE7AA5447408 /* Pods-MasnoryJiu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasnoryJiu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasnoryJiu/Pods-MasnoryJiu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F30ED70AEF14A7ACB556E6 /* libPods-MasnoryJiu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5B6054160764BCDD46EE45 /* libPods-MasnoryJiuTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646069EC925C7A3DAF393301 /* libPods-MasnoryJiuUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				C70C95F6212D56DA00EE0883 /* MasnoryJiuTests */,
 				C70C9601212D56DA00EE0883 /* MasnoryJiuUITests */,
 				C70C95DC212D56D800EE0883 /* Products */,
+				E7DFA25DED591831C78B9FBD /* Pods */,
+				F796A57B708924113A7AA148 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +121,8 @@
 		C70C95DD212D56D900EE0883 /* MasnoryJiu */ = {
 			isa = PBXGroup;
 			children = (
+				C70C9610212D57D200EE0883 /* NSArray+Sudoku.h */,
+				C70C9611212D57D200EE0883 /* NSArray+Sudoku.m */,
 				C70C95DE212D56D900EE0883 /* AppDelegate.h */,
 				C70C95DF212D56D900EE0883 /* AppDelegate.m */,
 				C70C95E1212D56D900EE0883 /* ViewController.h */,
@@ -132,6 +154,29 @@
 			path = MasnoryJiuUITests;
 			sourceTree = "<group>";
 		};
+		E7DFA25DED591831C78B9FBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F88306B4E1CCCE7AA5447408 /* Pods-MasnoryJiu.debug.xcconfig */,
+				7228654397C5ED90F1571994 /* Pods-MasnoryJiu.release.xcconfig */,
+				CE1C3C863BD8904600C99639 /* Pods-MasnoryJiuTests.debug.xcconfig */,
+				6B1AE87FD2142E9A819C5505 /* Pods-MasnoryJiuTests.release.xcconfig */,
+				907F42CE7FE34D991F00AF18 /* Pods-MasnoryJiuUITests.debug.xcconfig */,
+				95C5F47CA74D0C9CD6620456 /* Pods-MasnoryJiuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F796A57B708924113A7AA148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F8BC89CC88BC02AD65AA45 /* libPods-MasnoryJiu.a */,
+				DFCAA38C3CBBC12E159970D2 /* libPods-MasnoryJiuTests.a */,
+				A1629734974CC620C2A8EA86 /* libPods-MasnoryJiuUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C70C9607212D56DA00EE0883 /* Build configuration list for PBXNativeTarget "MasnoryJiu" */;
 			buildPhases = (
+				77E0C6D49689742ACF46B063 /* [CP] Check Pods Manifest.lock */,
 				C70C95D7212D56D800EE0883 /* Sources */,
 				C70C95D8212D56D800EE0883 /* Frameworks */,
 				C70C95D9212D56D800EE0883 /* Resources */,
@@ -156,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C70C960A212D56DA00EE0883 /* Build configuration list for PBXNativeTarget "MasnoryJiuTests" */;
 			buildPhases = (
+				0D269383B17590112F338E02 /* [CP] Check Pods Manifest.lock */,
 				C70C95EF212D56DA00EE0883 /* Sources */,
 				C70C95F0212D56DA00EE0883 /* Frameworks */,
 				C70C95F1212D56DA00EE0883 /* Resources */,
@@ -174,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C70C960D212D56DA00EE0883 /* Build configuration list for PBXNativeTarget "MasnoryJiuUITests" */;
 			buildPhases = (
+				7D59D592129DB682ACEA30E8 /* [CP] Check Pods Manifest.lock */,
 				C70C95FA212D56DA00EE0883 /* Sources */,
 				C70C95FB212D56DA00EE0883 /* Frameworks */,
 				C70C95FC212D56DA00EE0883 /* Resources */,
@@ -257,12 +305,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D269383B17590112F338E02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasnoryJiuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E0C6D49689742ACF46B063 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasnoryJiu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D59D592129DB682ACEA30E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasnoryJiuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C70C95D7212D56D800EE0883 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C70C95E3212D56D900EE0883 /* ViewController.m in Sources */,
+				C70C9612212D57D200EE0883 /* NSArray+Sudoku.m in Sources */,
 				C70C95EE212D56DA00EE0883 /* main.m in Sources */,
 				C70C95E0212D56D900EE0883 /* AppDelegate.m in Sources */,
 			);
@@ -431,10 +537,13 @@
 		};
 		C70C9608212D56DA00EE0883 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88306B4E1CCCE7AA5447408 /* Pods-MasnoryJiu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HM5T4U55XX;
 				INFOPLIST_FILE = MasnoryJiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,10 +556,13 @@
 		};
 		C70C9609212D56DA00EE0883 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7228654397C5ED90F1571994 /* Pods-MasnoryJiu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HM5T4U55XX;
 				INFOPLIST_FILE = MasnoryJiu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +575,7 @@
 		};
 		C70C960B212D56DA00EE0883 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE1C3C863BD8904600C99639 /* Pods-MasnoryJiuTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +594,7 @@
 		};
 		C70C960C212D56DA00EE0883 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1AE87FD2142E9A819C5505 /* Pods-MasnoryJiuTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +613,7 @@
 		};
 		C70C960E212D56DA00EE0883 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 907F42CE7FE34D991F00AF18 /* Pods-MasnoryJiuUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MasnoryJiuUITests/Info.plist;
@@ -516,6 +631,7 @@
 		};
 		C70C960F212D56DA00EE0883 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C5F47CA74D0C9CD6620456 /* Pods-MasnoryJiuUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MasnoryJiuUITests/Info.plist;
